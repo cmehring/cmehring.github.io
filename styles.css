@@ -33,7 +33,7 @@
 }
 
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: #29AF8A;
   color: white;
   transform: rotateY(180deg);
   font-size : 35px;
