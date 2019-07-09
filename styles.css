@@ -2,8 +2,8 @@
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
+  border: 1px solid white;
+  perspective: 1000px; 
 }
 
 .flip-box-inner {
@@ -27,8 +27,9 @@
 }
 
 .flip-box-front {
-  background-color: #bbb;
-  color: black;
+  background-color: white;
+  color: #29AF8A;
+  font-size : 50px;
 }
 
 .flip-box-back {
