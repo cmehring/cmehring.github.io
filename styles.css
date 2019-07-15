@@ -1,7 +1,7 @@
 .flip-box {
   background-color: transparent;
   width: 700px;
-  height: 200px;
+  height: 60px;
   border: 1px solid white;
   perspective: 1000px;
 }
@@ -16,7 +16,7 @@
 }
 
 .flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .flip-box-front, .flip-box-back {
@@ -29,18 +29,19 @@
 .flip-box-front {
   background-color: white;
   color: #29AF8A;
-  font-size: 50px;
+  
 }
+
 
 .flip-box-back {
   background-color: #29AF8A;
   color: white;
-  transform: rotateY(180deg);
-  font-size : 35px;
+  transform: rotateX(180deg);
 }
 
+
 .para {
-  font-size:20px; 
+  font-size:40px; 
   text-align: center; 
-  color: blue; 
+  color: purple; 
 }
